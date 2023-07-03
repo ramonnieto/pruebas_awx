@@ -8,6 +8,6 @@
       file:
         path: "{{ dir1 }}/{{ dir2 }}"
         state: directory
-      debug:
+  debug:
         msg: "Se ha creado la ruta {{ dir1 }}/{{ dir2 }}"
 

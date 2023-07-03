@@ -2,7 +2,7 @@
 - name: Create dir Sample
   hosts: all
   vars:
-    dir1: /home/usr_srv_gitlabci_adm/ramon
+    dir1: /home/usr_srv_gitlabci_adm@sgntj.mju.es/ramon
     dir2: "{{ ansible_hostname }}"
   tasks:
     - name: Crea directorio

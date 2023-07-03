@@ -1,3 +1,4 @@
+---
 - name: Create dir Sample
   hosts: all
   vars:
@@ -8,6 +9,6 @@
       file:
         path: "{{ dir1 }}/{{ dir2 }}"
         state: directory
-  debug:
-        msg: "Se ha creado la ruta {{ dir1 }}/{{ dir2 }}"
+ # debug:
+ #       msg: "Se ha creado la ruta {{ dir1 }}/{{ dir2 }}"
 
